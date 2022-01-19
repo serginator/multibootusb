@@ -5,3 +5,5 @@ USB should have an ext3 partition named `persistence` for use persistence in Kal
 You could have persistence for other distros too with other partitions, but I'm only interested in having kali tools up-to-date.
 
 For System Rescue CD, modify `boot/grub/grub.cfg` and in System Rescue entry, change img_label=`MY_USB` with the label of your FAT32 partition holding the isos
+
+grub.cfg can be watched in [this gist](https://gist.github.com/serginator/cd53e2703cc04f22341e), I don't know which one will be more updated.
